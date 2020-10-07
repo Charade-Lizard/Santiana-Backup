@@ -20,7 +20,7 @@ app.get("/", (request, response) => {
 });
 app.listen(8000);
 setInterval(() => {
-  http.get(`http://reina-backup.glitch.me/`);
+  http.get(`http://glitch.me/`);
 }, 120000);
 const log = message => {
   console.log(`[${moment().format("YYYY-MM-DD HH:mm:ss")}] ${message}`);
