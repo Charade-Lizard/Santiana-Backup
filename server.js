@@ -8,7 +8,7 @@ const db = require("quick.db");
 const Jimp = require("jimp");
 const snekfetch = require("snekfetch");
 require("./util/eventLoader")(client);
-let owner = "725260677836439583";
+let owner = ["725260677836439583","749761027964534795","455485982137909270","287637765141561345"];
 let sayac = JSON.parse(fs.readFileSync("./ayarlar/sayac.json")); 
 let akanal = JSON.parse(fs.readFileSync("./ayarlar/erkek.json"));
 const http = require("http");
